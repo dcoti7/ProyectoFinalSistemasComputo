@@ -1,0 +1,68 @@
+
+/* Estilos para el header */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/img/guatemala.jpg");
+    background-position: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.bar-lista > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.bar-lista{
+    display: flex;
+}
+
+.bar-lista li{
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+/* Estilos para el main */
+
+.main-container{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > img{
+    margin-top: 15px;
+}
+.texto{
+    margin-top: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parrafo{
+    width: 80%;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    width: 100%;
+}
+
+/* página culturas */
